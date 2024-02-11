@@ -1,6 +1,6 @@
 import SupabaseLogo from "@/components/SupabaseLogo";
 import BesinessDetails from "@/components/BusinessDetails";
-// import CustomerDetails from "@/components/CustomerDetails";
+import CustomerDetails from "@/components/CustomerDetails";
 // import InvoiceDetails from "@/components/InvoiceDetails";
 // import Footer from "@/components/Footer";
 
@@ -106,7 +106,7 @@ const Page = () => {
           </div>
         </div>
         <BesinessDetails />
-        {/* <CustomerDetails /> */}
+        <CustomerDetails />
       </div>
       {/* <Footer/> */}
     </div>
