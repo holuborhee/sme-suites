@@ -1,5 +1,8 @@
 import SupabaseLogo from "@/components/SupabaseLogo";
 import BesinessDetails from "@/components/BusinessDetails";
+// import CustomerDetails from "@/components/CustomerDetails";
+// import InvoiceDetails from "@/components/InvoiceDetails";
+// import Footer from "@/components/Footer";
 
 const Page = () => {
   return (
@@ -36,9 +39,19 @@ const Page = () => {
           <div>
             <div className="flex items-center gap-10">
               <div className="border-white w-[45px] h-[45px] border  rounded-3xl flex items-center justify-center p-1">
-                <svg 
-                  className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3. org/2000/svg" fill="none" viewBox="0 0 24 24">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m14.3 4.8 2.9 2.9M7 7H4a1 1 0 0 0-1 1v10c0 .6.4 1 1 1h11c.6 0 1-.4 1-1v-4.5m2.4-10a2 2 0 0 1 0 3l-6.8 6.8L8 14l.7-3.6 6.9-6.8a2 2 0 0 1 2.8 0Z"/>
+                <svg
+                  className="w-6 h-6 text-gray-800 dark:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3. org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24">
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m14.3 4.8 2.9 2.9M7 7H4a1 1 0 0 0-1 1v10c0 .6.4 1 1 1h11c.6 0 1-.4 1-1v-4.5m2.4-10a2 2 0 0 1 0 3l-6.8 6.8L8 14l.7-3.6 6.9-6.8a2 2 0 0 1 2.8 0Z"
+                  />
                 </svg>
               </div>
               <div className="w-[100px] border-2 bg-gray-900"></div>
@@ -50,9 +63,19 @@ const Page = () => {
           <div>
             <div className="flex items-center gap-10">
               <div className="border-white w-[45px] h-[45px] border  rounded-3xl flex items-center justify-center p-1">
-                <svg 
-                    className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M6 14h2m3 0h5M3 7v10c0 .6.4 1 1 1h16c.6 0 1-.4 1-1V7c0-.6-.4-1-1-1H4a1 1 0 0 0-1 1Z"/>
+                <svg
+                  className="w-6 h-6 text-gray-800 dark:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24">
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 10h18M6 14h2m3 0h5M3 7v10c0 .6.4 1 1 1h16c.6 0 1-.4 1-1V7c0-.6-.4-1-1-1H4a1 1 0 0 0-1 1Z"
+                  />
                 </svg>
               </div>
               <div className="w-[100px] border-2 bg-gray-900"></div>
@@ -64,9 +87,17 @@ const Page = () => {
           <div>
             <div className="">
               <div className="border-white w-[45px] h-[45px] border rounded-3xl flex items-center justify-center p-1">
-                <svg 
-                  className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                  <path fill-rule="evenodd" d="M9 2.2V7H4.2l.4-.5 3.9-4 .5-.3Zm2-.2v5a2 2 0 0 1-2 2H4v11c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-7ZM8 16c0-.6.4-1 1-1h6a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1Zm1-5a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H9Z" clip-rule="evenodd"/>
+                <svg
+                  className="w-6 h-6 text-gray-800 dark:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 24 24">
+                  <path
+                    fill-rule="evenodd"
+                    d="M9 2.2V7H4.2l.4-.5 3.9-4 .5-.3Zm2-.2v5a2 2 0 0 1-2 2H4v11c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-7ZM8 16c0-.6.4-1 1-1h6a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1Zm1-5a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H9Z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
               </div>
             </div>
@@ -75,65 +106,9 @@ const Page = () => {
           </div>
         </div>
         <BesinessDetails />
+        {/* <CustomerDetails /> */}
       </div>
-
-      {/* <div  className="container flex items-center gap-[250px] mt-8 w-[80%">
-        <div className="relative">
-          <div className="">
-            <div className="relative">
-              <div className="img rounded-[100%] p-2 object-contain flex items-center justify-center border border-blue-500">
-                <span className="w-full">
-                  <img
-                    className="w-[30px] h-[30px] m-auto object-contain"
-                    src="/SuperbaseLogo"
-                    alt="h"
-                  />
-                </span>
-              </div>
-            </div>
-            <p className="text-center py-6">Step 1</p>
-            <h2 className="text-center">Description</h2>
-          </div>
-          <span className="w-[110px] flex items-center top-[12%] left-[142px] justify-center absolute border-2 bg-gray-600"></span>
-        </div>
-
-        <div className="relative ">
-          <div className="">
-            <div className="relative ">
-              <div className="img rounded-[100%] p-2 flex items-center justify-center border border-blue-500">
-                <span className="w-full">
-                  <img
-                    className="w-[30px] h-[30px] m-auto"
-                    src="/SuperbaseLogo"
-                    alt="h"
-                  />
-                </span>
-              </div>
-            </div>
-            <p className="text-center py-6">Step 2</p>
-            <h2 className="text-center">Customer's Details</h2>
-          </div>
-          <span className="w-[110px] flex items-center top-[12%] left-[142px] justify-center absolute border-2 bg-gray-600"></span>
-        </div>
-
-        <div className="relative">
-          <div className="">
-            <div className="relative">
-              <div className="img rounded-[100%] flex p-2 items-center justify-center border border-blue-500">
-                <span className="w-full">
-                  <img
-                    className="w-[30px] h-[30px]  m-auto"
-                    src="/SuperbaseLogo"
-                    alt="h"
-                  />
-                </span>
-              </div>
-            </div>
-            <p className="text-center py-6">Step 3</p>
-            <h2 className="text-center">Invoice Details</h2>
-          </div>
-        </div>
-      </div> */}
+      {/* <Footer/> */}
     </div>
   );
 };
