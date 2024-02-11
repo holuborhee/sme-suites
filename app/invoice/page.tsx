@@ -2,7 +2,7 @@ import SupabaseLogo from "@/components/SupabaseLogo";
 import BesinessDetails from "@/components/BusinessDetails";
 import CustomerDetails from "@/components/CustomerDetails";
 // import InvoiceDetails from "@/components/InvoiceDetails";
-// import Footer from "@/components/Footer";
+import Footer from "@/components/Footer";
 
 const Page = () => {
   return (
@@ -108,7 +108,7 @@ const Page = () => {
         <BesinessDetails />
         <CustomerDetails />
       </div>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 };
