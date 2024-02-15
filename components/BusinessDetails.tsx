@@ -1,3 +1,4 @@
+// import '../app/globals.css'
 const BusinessDetails = () => {
   return (
     <>
@@ -28,7 +29,7 @@ const BusinessDetails = () => {
                       </span>
                     </label>
                     <input
-                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none focus:border-transparent duration-300 py-3 px-4 focus:border focus:border-blue-400"
+                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none duration-300 py-3 px-4 focus:border focus:border-blue-300"
                       type="text"
                     />
                   </div>
@@ -41,7 +42,7 @@ const BusinessDetails = () => {
                       </span>
                     </label>
                     <input
-                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none focus:border-transparent duration-300 py-3 px-4 focus:border focus:border-blue-400"
+                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none duration-300 py-3 px-4 focus:border focus:border-blue-300"
                       type="email"
                     />
                   </div>
@@ -57,7 +58,7 @@ const BusinessDetails = () => {
                       </span>
                     </label>
                     <input
-                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none focus:border-transparent duration-300 py-3 px-4 focus:border focus:border-blue-400"
+                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none duration-300 py-3 px-4 focus:border focus:border-blue-300"
                       type="text"
                     />
                   </div>
@@ -71,7 +72,7 @@ const BusinessDetails = () => {
                       </span>
                     </label>
                     <input
-                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none focus:border-transparent duration-300 py-3 px-4 focus:border focus:border-blue-400 appearance-none"
+                      className="remove-number-arrow w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none duration-300 py-3 px-4 focus:border focus:border-blue-300 appearance-none"
                       type="number"
                     />
                   </div>
@@ -87,7 +88,7 @@ const BusinessDetails = () => {
                       </span>
                     </label>
                     <input
-                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none focus:border-transparent duration-300 py-3 px-4 focus:border focus:border-blue-400"
+                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none duration-300 py-3 px-4 focus:border focus:border-blue-300"
                       type="select"
                     />
                   </div>
@@ -100,7 +101,7 @@ const BusinessDetails = () => {
                       </span>
                     </label>
                     <input
-                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none focus:border-transparent duration-300 py-3 px-4 focus:border focus:border-blue-400"
+                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none duration-300 py-3 px-4 focus:border focus:border-blue-300"
                       type="text"
                     />
                   </div>
@@ -111,7 +112,7 @@ const BusinessDetails = () => {
                     Zip code
                   </label>
                   <input
-                    className="w-full lg:w-[47%] block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none focus:border-transparent duration-300 py-3 px-4 focus:border focus:border-blue-400"
+                    className="w-full lg:w-[47%] block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none duration-300 py-3 px-4 focus:border focus:border-blue-300"
                     type="text"
                   />
                 </div>
@@ -134,7 +135,7 @@ const BusinessDetails = () => {
                       Country
                     </label>
                     <input
-                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none focus:border-transparent duration-300 py-3 px-4 focus:border focus:border-blue-400"
+                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none duration-300 py-3 px-4 focus:border focus:border-blue-300"
                       type="text"
                     />
                   </div>
@@ -143,7 +144,7 @@ const BusinessDetails = () => {
                       Bank
                     </label>
                     <input
-                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none focus:border-transparent duration-300 py-3 px-4 focus:border focus:border-blue-400"
+                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none duration-300 py-3 px-4 focus:border focus:border-blue-300"
                       type="text"
                     />
                   </div>
@@ -155,7 +156,7 @@ const BusinessDetails = () => {
                       Account Number
                     </label>
                     <input
-                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none focus:border-transparent duration-300 py-3 px-4 focus:border focus:border-blue-400"
+                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none duration-300 py-3 px-4 focus:border focus:border-blue-300"
                       type="number"
                     />
                   </div>
@@ -164,7 +165,7 @@ const BusinessDetails = () => {
                       Account holder name
                     </label>
                     <input
-                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none focus:border-transparent duration-300 py-3 px-4 focus:border focus:border-blue-400"
+                      className="w-full block border bg-[#555] my-4 rounded-md outline-none text-white shadow-sm focus:ring-primary placeholder:text-red-800 focus:outline-none duration-300 py-3 px-4 focus:border focus:border-blue-300"
                       type="text"
                     />
                   </div>

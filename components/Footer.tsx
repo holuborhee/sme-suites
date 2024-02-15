@@ -162,12 +162,12 @@ const Footer = () => {
               </div>
               <div>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                  Legal
+                  UNITED STATES
                 </h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
                     <a href="#" className="hover:underline">
-                      Privacy Policy
+                      21 Little Falls Drive, Wilmington, DE
                     </a>
                   </li>
                   <li>
@@ -184,7 +184,7 @@ const Footer = () => {
 
           <div className=" flex flex-col md:flex md:flex-row md:items-center md:justify-between  ">
             <span className="text-sm text-gray-500 md:text-center text-start dark:text-gray-400">
-              © 2023{" "}
+              © 2024{" "}
               <a href="https://flowbite.com/" className="hover:underline">
                 Supabase
               </a>
