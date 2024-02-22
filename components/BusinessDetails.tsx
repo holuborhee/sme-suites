@@ -1,4 +1,6 @@
 // import '../app/globals.css'
+import Button from './Button.jsx'
+
 const BusinessDetails = () => {
   return (
     <>
@@ -22,7 +24,7 @@ const BusinessDetails = () => {
                 <div className="lg:grid lg:grid-cols-2 lg:gap-12 py-[1rem]">
                   <div>
                     <label className="text-gray-300" htmlFor="">
-                      Your bussiness name{" "}
+                      Your business name{" "}
                       <span className="text-red-500 font-bold italic ml-2 text-base">
                         {" "}
                         *{" "}
@@ -172,11 +174,7 @@ const BusinessDetails = () => {
                 </div>
 
                 <div className=" w-full lg:w-52 ml-auto">
-                  <button
-                    type="submit"
-                    className="py-3 px-3 bg-blue-400 hover:bg-[#4884DA] transition duration-200 ease-in-out mt-8 rounded-lg w-full lg:w-52 focus:ring-blue-500 focus:ring-offset-blue-200 text-white text-center text-base font-semibold shadow-md  disabled:cursor-not-allowed disabled:bg-slate-500">
-                    Same and Continue
-                  </button>
+                  <Button/>
                 </div>
               </form>
             </div>

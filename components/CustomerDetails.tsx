@@ -1,3 +1,5 @@
+import Button from './Button.jsx'
+
 const CustomerDetails = () => {
   return (
     <>
@@ -138,11 +140,7 @@ const CustomerDetails = () => {
                     </div>
                   </div>
 
-                  <button
-                    type="submit"
-                    className="py-3 px-3 bg-blue-400 hover:bg-[#4884DA] transition duration-200 ease-in-out rounded-lg w-full lg:w-52 focus:ring-blue-500  mt-8  lg:mt-0 focus:ring-offset-blue-200 text-white text-center text-base font-semibold shadow-md disabled:cursor-not-allowed disabled:bg-slate-500">
-                    Same and Continue
-                  </button>
+                  <Button/>
                 </div>
               </form>
             </div>
