@@ -3,7 +3,7 @@ interface customersDetailsProps {
   previousComponent: () => void;
 }
 
-const CustomerDetails = ({nextComponent,previousComponent}) => {
+const CustomerDetails = (:{nextComponent,previousComponent}) => {
   return (
     <>
       <div className="container mt-10">
