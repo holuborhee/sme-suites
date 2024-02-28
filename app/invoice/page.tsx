@@ -1,32 +1,18 @@
-import SupabaseLogo from "@/components/SupabaseLogo";
+
 import BesinessDetails from "@/components/BusinessDetails";
 import CustomerDetails from "@/components/CustomerDetails";
 import InvoiceDetails from "@/components/InvoiceDetails";
 import Footer from "@/components/Footer";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import ToggleNavigation from "@/components/toggleNavigation";
 
 const Page = () => {
+
   return (
     <div className="w-[90%] mx-auto">
-      <div className="pt-6 flex items-center justify-between">
-        <SupabaseLogo />
-        <span className="bg-gray-800 rounded-3xl p-1">
-          <svg
-            className="w-[25px] h-[25px] text-gray-800 dark:text-white"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24">
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="1.7"
-              d="M6 18 18 6m0 12L6 6"
-            />
-          </svg>
-        </span>
-      </div>
-
+      
+      <ToggleNavigation />
       <div className="pt-[100px] text-balance w-[80%] mx-auto">
         <h1 className="font-bold text-[27px] text-center">
           Create fast and professional Invoice in few steps
@@ -107,9 +93,9 @@ const Page = () => {
         </div>
         <BesinessDetails />
         <CustomerDetails />
-        <InvoiceDetails/>
+        <InvoiceDetails />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
