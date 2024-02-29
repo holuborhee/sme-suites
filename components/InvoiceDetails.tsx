@@ -3,7 +3,7 @@ interface invoiceDetailsProps {
   previousComponent: () => void;
 }
 
-const InvoiceDetails = (:{previousComponent}) => {
+const InvoiceDetails = ({previousComponent}:invoiceDetailsProps) => {
   return (
     <>
       <div className="container mt-10">
