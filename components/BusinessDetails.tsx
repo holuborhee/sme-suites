@@ -2,11 +2,11 @@
 
 
 // Define the prop types for the components
-interface BesinessDetailsProps {
+interface BusinessDetailsProps {
   nextComponent: () => void;
 }
 
-const BusinessDetails = ({nextComponent}:BesinessDetailsProps) => {
+const BusinessDetails = ({nextComponent}:BusinessDetailsProps) => {
   return (
     <>
       <div className="container mt-10">

@@ -1,6 +1,6 @@
 "use client"
 import SupabaseLogo from "@/components/SupabaseLogo";
-import BesinessDetails from "@/components/BusinessDetails";
+import BusinessDetails from "@/components/BusinessDetails";
 import CustomerDetails from "@/components/CustomerDetails";
 import InvoiceDetails from "@/components/InvoiceDetails";
 import Footer from "@/components/Footer";
@@ -24,7 +24,7 @@ const Page = () => {
   const renderComponent = () => {
     switch (currentIndex) {
       case 0:
-        return <BesinessDetails nextComponent={nextComponent} />;
+        return <BusinessDetails nextComponent={nextComponent} />;
       case 1:
         return <CustomerDetails nextComponent={nextComponent} previousComponent={previousComponent} />;
       case 2:
