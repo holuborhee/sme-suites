@@ -8,7 +8,7 @@ function ToggleNavigation() {
       <SupabaseLogo />
       <Link href="/" className="bg-gray-800 rounded-3xl p-1 cursor-pointer">
         <svg
-          className="w-[25px] h-[25px] text-gray-800 dark:text-white"
+          className="w-[25px] h-[25px] fill-current text-white"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
