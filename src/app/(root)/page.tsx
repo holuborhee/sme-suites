@@ -4,7 +4,6 @@ import Banner from "@/app/_components/Banner";
 export default async function Index() {
   return (
    <div className="flex-1 w-full flex flex-col gap-20 items-center">
-
       <div className="flex max-w-[327px] max-h-[911px] md:max-w-[1207px] md:max-h-[796px]">
         <Banner />
       </div>
