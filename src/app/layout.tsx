@@ -28,7 +28,7 @@ export const metadata = {
     siteName: 'SMESuites',
     images: [
       {
-        url: `${host}`,
+        url: `${host}/logo/icon.png`,
         width: 600,
         height: 300,
         alt: 'SMESuites logo',
