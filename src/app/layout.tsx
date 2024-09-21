@@ -44,20 +44,19 @@ export const metadata = {
       { url: '/icon.png', width: 400, height: 300 },
       new URL('/icon.png', `${host}`),
     ],
-    robots: {
-     index: true,
-      follow: true,
-      nocache: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        noimageindex: false,
-        'max-video-preview': -1,
-        'max-image-preview': 'large',
-        'max-snippet': -1,
-      },
-    },
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  }
   keywords: keywords,
 };
 
