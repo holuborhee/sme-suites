@@ -45,13 +45,13 @@ export const metadata = {
       new URL('/icon.png', `${host}`),
     ],
     robots: {
-      index: false,
+     index: true,
       follow: true,
       nocache: true,
       googleBot: {
         index: true,
-        follow: false,
-        noimageindex: true,
+        follow: true,
+        noimageindex: false,
         'max-video-preview': -1,
         'max-image-preview': 'large',
         'max-snippet': -1,
